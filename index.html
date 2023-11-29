@@ -26,8 +26,14 @@
                       <button
                         data-spoller
                         type="button"
-                        class="menu__arrow icon_icon-arrow-down"
-                      ></button>
+                        class="menu__arrow "
+                      >
+                        <img
+                        class="_icon-arrow-down"
+                          src="src/iconsfont/arrow-down.svg"
+                          alt="arrow down"
+                        />
+                      </button>
                       <ul class="menu__sub-list">
                         <li class="menu__sub-item">
                           <a href="" class="menu__sub-link">Product #1</a>
@@ -48,8 +54,14 @@
                       <button
                         data-spoller
                         type="button"
-                        class="menu__arrow icon_icon-arrow-down"
-                      ></button>
+                        class="menu__arrow "
+                      >
+                        <img
+                        class="_icon-arrow-down"
+                          src="src/iconsfont/arrow-down.svg"
+                          alt="arrow down"
+                        />
+                      </button>
                       <ul class="menu__sub-list">
                         <li class="menu__sub-item">
                           <a href="" class="menu__sub-link">Room #1</a>
@@ -73,9 +85,46 @@
               </div>
             </div>
             <div class="header__search">
-                
+              <button type="button" class="search-form__icon ">
+                <img class='_icon-search' src="src/iconsfont/search.svg" alt="search" />
+              </button>
+              <form action="#" class="search-form__item">
+                <button class="search-form_btn _icon-search"></button>
+                <input
+                  autocomplete="off"
+                  type="text"
+                  name="form[]"
+                  data-value="Search for minimalist chair"
+                  class="search-form__input"
+                />
+              </form>
             </div>
-            <div class="header__actions actions-header"></div>
+            <div class="header__actions actions-header">
+              <a
+                href=""
+                class="actions-header__item actions-header__item-favorites _icon-favorite"
+                ><img src="src/iconsfont/favorite.svg" alt="favorite"
+              /></a>
+              <div class="actions-header__item cart-header">
+                <a href="" class="card-header__icon _icon-heart"
+                  ><img src="src/iconsfont/cart.svg" alt="cart"
+                /></a>
+                <div class="cart-header__body">
+                  <ul class="cart-header__list cart-list"></ul>
+                </div>
+              </div>
+              <a
+                href=""
+                class="actions-header__item actions-header__item_user _ibg"
+              >
+                <img
+                  src="src/img/avatar.jpg"
+                  alt="avatar"
+                  width="20"
+                  height="20"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
